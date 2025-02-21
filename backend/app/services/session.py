@@ -32,5 +32,5 @@ class SessionService:
             type=edge_dict["type"],
             source_id=UUID(edge_dict["source_id"]),
             target_id=UUID(edge_dict["target_id"]),
-            properties=edge_dict["probability"]
+            probability=edge_dict["probability"]
         )
